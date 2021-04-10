@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    max-width: 1378px;
+    margin: 0 auto;
+}
+
+.container header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container header h1 {
+    color: var(--blue-dark);
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;    
+}
+
+.container header p {
+    color: var(--blue-light);
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 300;    
+}
+
+.container article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem 4rem;
+}
+
+.container footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

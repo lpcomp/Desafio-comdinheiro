@@ -1,0 +1,47 @@
+
+.container article section {
+    background-color: #fff;
+    padding: 2rem 2rem 0;
+    border: 0.2rem solid #cccccc;
+    border-radius: 0.4rem;
+    margin: 1rem 0.6rem;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container article section:hover {
+    box-shadow: 0 2rem 2rem -2rem #8a8a8a;
+}
+
+.container article section img {
+    width: 26rem;
+    height: 26rem;
+    object-fit: cover;
+    border-radius: 0.4rem;
+}
+
+.container article section h2 {
+    color: var(--blue-dark);
+    font-size: 3.5rem;
+    height: 10rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 26rem;
+}
+
+@media (max-width: 545px) {    
+
+    .container article section img {
+        width: 36rem ;
+        height: 36rem ;
+    }
+
+    .container article section h2 {
+        max-width: none ;
+    }
+}

@@ -1,0 +1,28 @@
+
+.container footer button {
+    outline: none;
+    color: var(--blue-dark);
+    background-color: var(--background);
+    border: 0.2rem solid var(--blue-dark);
+    cursor: pointer;
+
+    /* width: 20.2rem;
+    height: 4.4rem; */
+    font-size: 1.4rem;
+    padding: 1.2rem 5rem;
+    border-radius: 3rem;
+    margin: 1rem;
+
+    transition: background 0.3s;
+}
+
+.container footer button:hover {
+    color: var(--white);
+    background-color: var(--blue-dark);
+}
+
+@media (max-width: 545px) {
+    .container footer button {
+        font-size: 2.6rem;
+    }
+}
